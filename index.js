@@ -254,7 +254,7 @@ function displayMealDetails(meal) {
         }
     }
 
-    let tags = meal.strTags.split(",")
+    let tags = meal.strTags.split("0,20")
     if (!tags) tags = []
 
     let tagsStr = ''
